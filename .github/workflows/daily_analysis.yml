@@ -263,7 +263,7 @@ jobs:
           echo "=========================================="
           echo "📊 分析完成"
           echo "=========================================="
-          if [ -d "reports" ] &&[ "$(ls -A reports 2>/dev/null)" ]; then
+          if [ -d "reports" ] && [ "$(ls -A reports 2>/dev/null)" ]; then
             echo "✅ 生成的报告:"
             ls -la reports/
           else
